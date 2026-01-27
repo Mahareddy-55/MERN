@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-around;
+}
+    ul{
+        life-style:none;
+        background-color: pink;
+        padding:10px
+    }
+    li{
+        background: white
+        padding:10px;
+        border-radius: 10px;
+    }
+    li:hover{
+
+    }
