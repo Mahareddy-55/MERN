@@ -12,6 +12,7 @@ import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Service from './pages/Service'
 import { Route, Routes } from 'react-router-dom'
+import UseReducer  from './Hooks/UseReducer'
 const App = () =>{
  
   return(
@@ -31,6 +32,8 @@ const App = () =>{
         <Route path='useEffectApi' element={<UseEffectApi />}/>
         <Route path='useState'element={<UseState/>}/>
         <Route path='useref'element={<UseRef/>}/>
+        <Route path='useReducer'element={<UseReducer/>}/>
+        
       
       </Route>
 
