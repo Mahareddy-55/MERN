@@ -4,8 +4,10 @@ const dotenv = require('dotenv');
 const userRoute = require('./router/userRouter');
 const connectDB = require('./config/db');
 const { connect } = require('mongoose');
+const cors = require('cors');
 dotenv.config();
 const app = express();
+app.use(cors());
 connectDB();
 app.use(express.json())
 
