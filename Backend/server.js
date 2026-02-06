@@ -31,7 +31,7 @@ app.use("/api/user",userRoute)
 //     res.status(200).json({message:"Delete Route is working"})
 // })
 
-const PORT = process.env.PORT ||3000;
+const PORT = process.env.PORT ;
     
 
 app.listen(PORT, () => {
