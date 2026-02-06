@@ -15,6 +15,7 @@ import { Route, Routes } from 'react-router-dom'
 import UseReducer  from './Hooks/UseReducer'
 import UseMemo from './Hooks/UseMemo'
 import UseCallback from './Hooks/UseCallback'
+import Todo from './component/Todo'
 const App = () =>{
  
   return(
@@ -27,6 +28,7 @@ const App = () =>{
       <Route path='/service' element={<Service/>}></Route>
       <Route path='/login' element={<Login />}/>
       <Route path='/signUp' element={<Signup />}/>
+      <Route path='/todo' element={<Todo/>}/>
       {/*Hooks*/}
       
       <Route path='/hook' element={<Hook />}>
